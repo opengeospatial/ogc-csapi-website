@@ -2,7 +2,7 @@
 
 This repository hosts the source code of the OGC API - Connected Systems Micro Website: https://csapi.developer.ogc.org
 
-The site is built and deployed automatically by [GitHub Actions](https://github.com/OS4CSAPI/ogc-csapi-website/actions) on every push to `master`. Read [this note](#note-about-publishing-the-website) for details.
+The site is built and deployed automatically by [GitHub Actions](https://github.com/opengeospatial/ogc-csapi-website/actions) on every push to `master`. Read [this note](#note-about-publishing-the-website) for details.
 
 This project was forked from [opengeospatial/ogc-features-website](https://github.com/opengeospatial/ogc-features-website) and adapted for the OGC API – Connected Systems standards family (CSAPI Part 1: Feature Resources, Part 2: Dynamic Data, plus the SensorML and SWE Common encodings).
 
@@ -10,7 +10,7 @@ This project was forked from [opengeospatial/ogc-features-website](https://githu
 
 Clone this repository with:
 
-`git clone https://github.com/OS4CSAPI/ogc-csapi-website.git`
+`git clone https://github.com/opengeospatial/ogc-csapi-website.git`
 
 Then enter the folder:
 
@@ -38,8 +38,8 @@ Commit all your changes to the `master` branch. The [GitHub Actions workflow](./
 
 This website is a live project and we welcome contributions from the community! If you have suggestions for improvements, found a bug, or want to add new features, feel free to:
 
-* Open an [issue](https://github.com/OS4CSAPI/ogc-csapi-website/issues) to start a discussion
-* Submit a [pull request](https://github.com/OS4CSAPI/ogc-csapi-website/pulls) with your proposed changes
+* Open an [issue](https://github.com/opengeospatial/ogc-csapi-website/issues) to start a discussion
+* Submit a [pull request](https://github.com/opengeospatial/ogc-csapi-website/pulls) with your proposed changes
 
 We appreciate your support in making this website better!
 
