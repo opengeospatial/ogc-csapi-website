@@ -125,9 +125,9 @@ html(lang='en')
                 .text-left
                     p.text-muted
                         | The standard is published in two parts. 
-                        a(href='https://docs.ogc.org/is/23-001r0/23-001r0.html' target='_blank') Part 1: Feature Resources
+                        a(href='https://docs.ogc.org/is/23-001/23-001.html' target='_blank') Part 1: Feature Resources
                         |  defines how to describe and discover the systems that produce data — their identifiers, metadata, deployment context, and the things they sample. 
-                        a(href='https://docs.ogc.org/is/23-002r0/23-002r0.html' target='_blank') Part 2: Dynamic Data
+                        a(href='https://docs.ogc.org/is/23-002/23-002.html' target='_blank') Part 2: Dynamic Data
                         |  defines how observations and tasking commands flow to and from those systems in real time and historically.
                     h4.mt-4 Part 1 — Feature Resources
                     ul
@@ -186,7 +186,7 @@ html(lang='en')
                             h4 CS GO Reference Server
                             p.text-muted Powered by connected-systems-go
                             p.text-muted A public Go-based CSAPI server hosted by OS4CSAPI. Implements Part 1 (Feature Resources) and Part 2 (Dynamic Data) and is the primary integration target for the OS4CSAPI conformance and tutorial work.
-                            a.btn.btn-dark.btn-social.mx-2(href='https://129-80-248-53.sslip.io/csapi-go/' title='Landing page' target='_blank')
+                            a.btn.btn-dark.btn-social.mx-2(href='https://129-80-248-53.sslip.io/csapi-go-v2/' title='Landing page' target='_blank')
                                 i.fa.fa-link
                             a.btn.btn-dark.btn-social.mx-2(href='https://github.com/SomethingCreativeStudios/connected-systems-go' title='Source code' target='_blank')
                                 i.fab.fa-github
@@ -275,7 +275,7 @@ html(lang='en')
                         <tr>
                         <th scope="row" class="table-info text-start">Go <i class="fas fa-server"></i></th>
                         <td class="text-start">connected-systems-go</td>
-                        <td><a href="https://github.com/SomethingCreativeStudios/connected-systems-go" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> &nbsp; <a href="https://129-80-248-53.sslip.io/csapi-go/" target="_blank" title="Live demo"><i class="fas fa-link"></i></a></td>
+                        <td><a href="https://github.com/SomethingCreativeStudios/connected-systems-go" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> &nbsp; <a href="https://129-80-248-53.sslip.io/csapi-go-v2/" target="_blank" title="Live demo"><i class="fas fa-link"></i></a></td>
                         <td class="table-success"><i class="fas fa-check"></i></td>
                         <td class="table-success"><i class="fas fa-check"></i></td>
                         <td class="text-muted">&mdash;</td>
@@ -437,7 +437,7 @@ html(lang='en')
                 ul.timeline
                     li
                         .timeline-image
-                            a(href='https://docs.ogc.org/is/23-001r0/23-001r0.html' title='Read the specification' target='_blank')
+                            a(href='https://docs.ogc.org/is/23-001/23-001.html' title='Read the specification' target='_blank')
                                 img.rounded-circle.img-fluid(src='assets/img/about/ogcapi.png', alt='...')
                         .timeline-panel
                             .timeline-heading
@@ -445,9 +445,9 @@ html(lang='en')
                             .timeline-body
                                 p.text-muted
                                     | Start with 
-                                    a(href='https://docs.ogc.org/is/23-001r0/23-001r0.html' target='_blank') Part 1: Feature Resources
+                                    a(href='https://docs.ogc.org/is/23-001/23-001.html' target='_blank') Part 1: Feature Resources
                                     |  to learn the core resource model, then 
-                                    a(href='https://docs.ogc.org/is/23-002r0/23-002r0.html' target='_blank') Part 2: Dynamic Data
+                                    a(href='https://docs.ogc.org/is/23-002/23-002.html' target='_blank') Part 2: Dynamic Data
                                     |  for Datastreams, Observations, ControlStreams, and Commands. Both parts include conformance classes you can target incrementally.
                     li.timeline-inverted
                         .timeline-image
@@ -472,7 +472,7 @@ html(lang='en')
                                     | Hit a public CSAPI test server such as the OS4CSAPI 
                                     a(href='https://129-80-248-53.sslip.io/sensorhub/api' target='_blank') OpenSensorHub instance
                                     |  or the 
-                                    a(href='https://129-80-248-53.sslip.io/csapi-go/' target='_blank') connected-systems-go demo
+                                    a(href='https://129-80-248-53.sslip.io/csapi-go-v2/' target='_blank') connected-systems-go demo
                                     |  and walk the resource graph: 
                                     code /systems
                                     | , 
@@ -537,11 +537,6 @@ html(lang='en')
 
         // Portfolio Modals
         include includes/portfolio-modal-1
-        include includes/portfolio-modal-2
-        include includes/portfolio-modal-3
-        include includes/portfolio-modal-4
-        include includes/portfolio-modal-5
-        include includes/portfolio-modal-6
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js')
